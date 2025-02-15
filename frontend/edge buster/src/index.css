@@ -1,0 +1,38 @@
+body{
+    font-family: monospace;
+    
+}
+
+.Header{
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    padding: 50px;
+    width: 100px;
+}
+
+.fileselector{
+    border: 1px solid;
+    padding: 10px;
+}
+
+button{
+    background-color: white;
+    border: 1px solid;
+    padding: 10px;
+    height: 43px;
+}
+button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s ease;
+}
+
+pre{
+    border: 1px solid;
+    padding: 10px;
+    font-size: larger;
+}
+
